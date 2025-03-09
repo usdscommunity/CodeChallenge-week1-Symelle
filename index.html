@@ -1,9 +1,12 @@
 <!-- Le défi est de corriger la structure et la sémantique du code HTML
 afin de mettre en application les notions apprises cette semaine. Bonne séance de code!!! -->
 
+<!DOCTYPE html>
+<html lang="en">
 
-<html>
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Boutique en ligne</title>
     <style>
         .container { margin: 10px; }
@@ -26,7 +29,7 @@ afin de mettre en application les notions apprises cette semaine. Bonne séance 
             <u>Produit 1</u><br>
             <img src="produit1.webp" width="150" height="150"><br>
             Prix: 100€<br>
-            <input type="submit" value="Acheter">
+            <button type="submit" value="Acheter"></button>
             <table class="table">
                 <tr>
                     <td>Caractéristique</td>
@@ -47,7 +50,7 @@ afin de mettre en application les notions apprises cette semaine. Bonne séance 
             <u>Produit 2</u><br>
             <img src="produit2.webp" width="150" height="150"><br>
             Prix: 200€<br>
-            <input type="submit" value="Acheter">
+            <button type="submit" value="Acheter"></button>
             <table class="table">
                 <tr>
                     <td>Caractéristique</td>
@@ -65,7 +68,7 @@ afin de mettre en application les notions apprises cette semaine. Bonne séance 
         </div>
     </div>
 
-    <marquee>Promo spéciale aujourd'hui : Livraison gratuite !</marquee>
+    <p>Promo spéciale aujourd'hui : Livraison gratuite !</p>
 
     <div class="box">
         <h5>Contactez-nous : boutique@email.com</h5>
@@ -73,7 +76,7 @@ afin de mettre en application les notions apprises cette semaine. Bonne séance 
             Nom: <input type="text" name="nom"><br>
             Email: <input type="text" name="email"><br>
             Message: <textarea></textarea><br>
-            <input type="submit" value="Envoyer">
+            <button type="submit" value="Envoyer"></button>
         </form>
     </div>
 
